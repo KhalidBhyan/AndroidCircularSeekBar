@@ -590,14 +590,4 @@ public class CircularSeekBar extends View {
 	public void hideSeekBar() {
 		SHOW_SEEKBAR = false;
 	}
-	
-	/**
-	* To enable or disable the seekbar
-	*
-	* @param enabled
-	*	    true to enable the seek bar, false otherwise
-	*/
-	public void setEnabled(boolean enabled) {
-		super.setEnabled(enabled);
-	}
 }
